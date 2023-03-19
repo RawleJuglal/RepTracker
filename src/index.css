@@ -1,0 +1,20 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    font-size:16px;
+    --primary-color:#ff6700;
+    --secondary-color:#3a6ea5;
+    --tertiary-color:#004e98;
+    --light-grey:#ebebeb;
+    --dark-grey:#c0c0c0;
+    --18pt:1.125rem;
+    --24pt:1.5rem;
+    --32pt:2rem;
+}
+
+body{
+    scroll-behavior: smooth;
+}
