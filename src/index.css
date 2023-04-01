@@ -18,3 +18,22 @@
 body{
     scroll-behavior: smooth;
 }
+
+.wrapper{
+    margin:0 1em;
+}
+
+.pad-wrapper{
+    padding:0 1em;
+}
+
+.btn{
+    all:unset;
+    text-align:center;
+    color:var(--light-grey);
+    font-size:.6875rem;
+    font-style: italic;
+    padding:1em 0;
+    margin:1em 0;
+    border-radius:.3125em;
+}

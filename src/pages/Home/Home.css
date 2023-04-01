@@ -46,3 +46,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.--home-page-container{
+	display:flex;
+	flex-direction: column;
+	background-image:url('src/assets/gym.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	max-width:450px;
+	margin:0 auto;
+}
+
+.--home-img{
+	width:100px;
+	padding:1em;
+}
+
+.--home-tagline{
+	color:whitesmoke;
+	text-shadow:0 0 2px #303030;
+}
+
+.--home-desc{
+	color:var(--dark-grey);
+	text-shadow:0 0 2px #303030;
+}
+
+button.--home-get-started-btn{
+	background-color:var(--tertiary-color);
+}
+
+button.--home-login-btn{
+	background-color: var(--dark-grey);
+}
+
+button.btn:hover{
+	background-color:var(--light-grey);
+	color:#303030;
+}
